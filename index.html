@@ -4,13 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
     <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
     <script defer src="script.js"></script>
   </head>
   <body>
-    <div id="message-container"></div>
+    <div id="message-container">
+      <div class="message my-message">My Message1</div>
+      <div class="message another-message">Your Message1</div>
+      <div class="message my-message">My Message2</div>
+      <div class="user-connection">Ray Join</div>
+      <div class="user-disconnection">Ray goway</div>
+      <div class="message my-message">My Message3</div>
+      <div class="message another-message">
+        Your Message1 Your Message1Your Message1Your Message1Your Message1Your
+        Message1Your Message1Your Message1
+      </div>
+    </div>
     <form id="send-container">
-      <input type="text" id="message-input" />
+      <input type="text" id="message-input" placeholder="message.." />
       <button type="submit" id="send-button">send</button>
     </form>
   </body>
