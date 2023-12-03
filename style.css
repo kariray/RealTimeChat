@@ -48,6 +48,12 @@
   -webkit-clip-path: polygon(49% 0, 100% 0, 100% 49%, 0 100%);
   clip-path: polygon(49% 0, 100% 0, 100% 49%, 0 100%);
 }
+.another-message .user-name {
+  position: absolute;
+  color: #b6b6b6;
+  top: -20px;
+  left: 5px;
+}
 .user-connection,
 .user-disconnection {
   color: #b6b6b6;
